@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.channelPEAR"
+       name="channel PEAR"
+       version="1.0"
+       provider-name="channel PEAR">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>loads your channel PEAR library in Kodi</summary>
+    <description>
+		channel PEAR is a collaborative, cloud-based media platform that enables you to discover, share, and watch live content from around the world on your favorite devices. No downloads or confusing media server setups required - channel PEAR hosts your personal library in the cloud so you don't have to!
+	
+		Enter your custom Kodi URL in the addon settings. You can get your custom Kodi URL from your library at https://channelpear.com/library/ (must be logged in - click the "Kodi Channel" link at the top right of the page).
+	
+		This addon was contributed by user "podgod" for Kodi. Original credit to Shani and other devs involved.
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
