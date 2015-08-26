@@ -14,7 +14,7 @@ This plugin provides access to your channel PEAR library via Kodi.
 2. Must have a channel PEAR account with sources in your library
 3. Download the ZIP file
 4. Launch Kodi
-5. Settings → Add-ons → Install from zip file -> Navigate to the ZIP file
+5. System → Settings → Add-ons → Install from zip file -> Navigate to the ZIP file
 
 ### Link your Library ###
 Once you've installed the plugin successfully, you'll need to link it to your channel PEAR library. **The plugin will not work until you complete this step**. Go here for linking instructions: http://jidly.github.io/plugin.video.channelPEAR/
