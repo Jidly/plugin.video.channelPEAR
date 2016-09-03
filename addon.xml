@@ -20,13 +20,9 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>loads your channel PEAR library in Kodi</summary>
+    <summary>channel PEAR is a media platform that lets you discover and watch content on your favorite devices</summary>
     <description>
-		channel PEAR is a collaborative, cloud-based media platform that enables you to discover, share, and watch live content from around the world on your favorite devices. No downloads or confusing media server setups required - channel PEAR hosts your personal library in the cloud so you don't have to!
-	
-		Enter your custom Kodi URL in the addon settings. You can get your custom Kodi URL from your library at https://channelpear.com/library/ (must be logged in - click the "Kodi Channel" link at the top right of the page).
-	
-		This addon was contributed by user "podgod" for Kodi. Original credit to Shani and other devs involved.
+		This addon syncs your personal channel PEAR library with Kodi once you enter your custom account URL in the addon settings. You can find your custom URL at channelpear.com/library (visit channelpear.com/help for more instructions)
     </description>
     <platform>all</platform>
   </extension>

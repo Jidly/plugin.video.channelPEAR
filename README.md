@@ -21,7 +21,7 @@ Once you've installed the plugin successfully, you'll need to link it to your ch
 
 ### Credits ###
 * Publisher: [channel PEAR]
-* Developer: podgod. Original credit to Shani and other devs involved.
+* Developer: Original credit to Shani and other devs involved.
 
 ### License ###
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
