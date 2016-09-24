@@ -3,8 +3,7 @@
 1. [Introduction][1]
 2. [Installation][2]
 3. [Link your Library][3]
-5. [Credits][4]
-6. [License][5]
+4. [License][4]
 
 ### Introduction ###
 This add-on provides access to your channel PEAR library via Kodi.
