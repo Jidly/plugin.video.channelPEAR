@@ -178,21 +178,21 @@ def addSource(url=None):
             try: source_media['credits'] = media_info.credits.string
             except: pass
         else:
-            if '/' in source_url:
-                nameStr = source_url.split('/')[-1].split('.')[0]
-            if '\\' in source_url:
-                nameStr = source_url.split('\\')[-1].split('.')[0]
-            if '%' in nameStr:
-                nameStr = urllib.unquote_plus(nameStr)
-            keyboard = xbmc.Keyboard(nameStr,'Displayed Name, Rename?')
-            keyboard.doModal()
-            if (keyboard.isConfirmed() == False):
-                return
-            newStr = keyboard.getText()
-            if len(newStr) == 0:
-                return
+            # if '/' in source_url:
+            #     nameStr = source_url.split('/')[-1].split('.')[0]
+            # if '\\' in source_url:
+            #     nameStr = source_url.split('\\')[-1].split('.')[0]
+            # if '%' in nameStr:
+            #     nameStr = urllib.unquote_plus(nameStr)
+            # keyboard = xbmc.Keyboard(nameStr,'Displayed Name, Rename?')
+            # keyboard.doModal()
+            # if (keyboard.isConfirmed() == False):
+            #     return
+            # newStr = keyboard.getText()
+            # if len(newStr) == 0:
+            #     return
             source_media = {}
-            source_media['title'] = newStr
+            source_media['title'] = 'My Library'
             source_media['url'] = source_url
             source_media['fanart'] = fanart
 
@@ -203,10 +203,15 @@ def addSource(url=None):
             b.write(json.dumps(source_list))
             b.close()
         else:
-            sources = json.loads(open(source_file,"r").read())
-            sources.append(source_media)
+            # sources = json.loads(open(source_file,"r").read())
+            # sources.append(source_media)
+            # b = open(source_file,"w")
+            # b.write(json.dumps(sources))
+            # b.close()
+            source_list = []
+            source_list.append(source_media)
             b = open(source_file,"w")
-            b.write(json.dumps(sources))
+            b.write(json.dumps(source_list))
             b.close()
         addon.setSetting('new_url_source', "")
         addon.setSetting('new_file_source', "")
