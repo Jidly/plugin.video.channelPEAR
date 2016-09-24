@@ -22,7 +22,7 @@
   <extension point="xbmc.addon.metadata">
     <summary>channel PEAR is a media platform that lets you discover and watch content on your favorite devices</summary>
     <description>
-		This addon syncs your personal channel PEAR library with Kodi once you enter your custom account URL in the addon settings. You can find your custom URL at channelpear.com/library (visit channelpear.com/help for more instructions)
+		This addon syncs your personal channel PEAR library with Kodi once you enter your library URL in the addon settings. You can get your library URL at channelpear.com/library (visit channelpear.com/help for more instructions)
     </description>
     <platform>all</platform>
   </extension>
