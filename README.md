@@ -1,4 +1,4 @@
-## Kodi plugin for channel PEAR ##
+## Kodi add-on for channel PEAR ##
 
 1. [Introduction][1]
 2. [Installation][2]
@@ -7,7 +7,7 @@
 6. [License][5]
 
 ### Introduction ###
-This plugin provides access to your channel PEAR library via Kodi.
+This add-on provides access to your channel PEAR library via Kodi.
 
 ### Installation ###
 1. Must have [Kodi][GetKodi] installed
@@ -19,10 +19,6 @@ This plugin provides access to your channel PEAR library via Kodi.
 ### Link your Library ###
 Once you've installed the plugin successfully, you'll need to link it to your channel PEAR library. **The plugin will not work until you complete this step**. Go here for linking instructions: http://channelpear.com/help/how-to-install-the-kodi-add-on-for-channel-pear/
 
-### Credits ###
-* Publisher: [channel PEAR]
-* Developer: Original credit to Shani and other devs involved.
-
 ### License ###
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
@@ -31,7 +27,6 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
   [1]: #introduction "Introduction"
   [2]: #installation "Installation"
   [3]: #link-your-library "Link your Library"
-  [4]: #credits "Credits"
-  [5]: #license "License"
+  [4]: #license "License"
   [channel PEAR]: https://channelpear.com/
   [GetKodi]: http://kodi.tv/download/
